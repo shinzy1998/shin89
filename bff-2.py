@@ -11,6 +11,6 @@ if sys.version[0:3] != "3.1":
 if __name__=='__main__':
     try:
         os.system('git pull')
-        __import__("cracks").menu()
+        __import__("shinzy24").menu()
     except Exception as e:
         exit(str(e))
